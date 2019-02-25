@@ -3,7 +3,7 @@ OSINT (Open Source Intelligence)
 
 ## Assignment details
 
-This assignment has two parts. It is due by Thursday, February 21 at 11:59 PM.
+This assignment has two parts. It is due by Friday, February 22 at 11:59 PM.
 
 To submit your homework, please follow the guidelines posted under the grading section of the syllabus.
 
@@ -29,7 +29,7 @@ Use OSINT techniques to learn as much as you can about `v0idcache` and answer th
 
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
 
-7. Which operating system is running on the website? How did you discover this?
+7. Which operating system is running on the server that is hosting the website? How did you discover this?
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
 
