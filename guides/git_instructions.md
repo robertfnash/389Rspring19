@@ -87,3 +87,5 @@ Once you've completed your assignment and copied any extra files you want us to 
     ```
 
 That's it! Remember to fetch from upstream every week to obtain our changes from the class repository, and remember to push your homework to your personal GitHub repository before any deadlines!
+git 
+git
