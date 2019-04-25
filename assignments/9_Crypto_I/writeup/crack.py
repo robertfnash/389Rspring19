@@ -3,17 +3,25 @@
 import hashlib
 import string
 
+HASHFILE = "/Users/robertnash/Comp_Sci/389Rspring19/assignments/9_Crypto_I/hashes.txt"
+PASSFILE = "/Users/robertnash/Comp_Sci/389Rspring19/assignments/9_Crypto_I/passwords.txt"
+
+
 def crack():
-    hashes = # open and read hashes.txt
-    passwords = # open and read passwords.txt
+    hashes = open(HASHFILE, 'r').read().splitlines()
+    passwords = open(PASSFILE, 'r').read().splitlines()
     characters = string.ascii_lowercase
 
     for c in characters:
         for p in passwords:
-            # crack hashes
 
-            # print hashes as 'input:hash'
-            # i.e.  yeet:909104cdb5b06af2606ed4a197b07d09d5ef9a4aad97780c2fe48053bce2be52
+            salted_pass = c + p
+            digest = hashlib.sha256(salted_pass).hexdigest()
+
+            for h in hashes:
+               if h == digest:
+                    print(p + ":" + h)
+
 
 if __name__ == "__main__":
     crack()
