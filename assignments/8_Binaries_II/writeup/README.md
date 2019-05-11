@@ -14,7 +14,7 @@ Digital acknowledgement: Robert Nash
 
 This assignment was pretty easy once I was able to load it into Ghidra. Once the binary in analyzed we go to the functions menu and select the `main` function. 
 
-![](/Users/robertnash/Desktop/ghidra.png)
+![](./ghidra.png)
 
 To the left, we can see Ghidra does a great job decompiling the code and that the program simply takes in an argument (the flag) and checks each character to make sure it matches. The first few characters are straight forward. The other checks are a little more intuitive.
 
@@ -97,5 +97,5 @@ Our flag is now `CMSC389R-{0n3_st0p_l0cK_st0P}`
 
 **
 
-![](/Users/robertnash/Desktop/flag.png)
+![](./flag.png)
     
