@@ -12,6 +12,8 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 
 ### Part 1 (70 Pts)
 
+CMSC389R-{m3ss@g3_!n_A_b0ttl3}cd ..
+
 ### Part 2 (30 Pts)
 
 *Your reflection goes here*
